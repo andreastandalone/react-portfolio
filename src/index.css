@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import './assets/fonts/font.css';
+
+@layer components {
+	.align-element {
+		@apply mx-auto max-w-7xl px-8;
+	}
+	.bg-gradient-brand {
+		@apply bg-gradient-to-r from-cyan-500 to-blue-500;
+	}
+	.bg-gradient-grey {
+		@apply bg-gradient-to-r from-slate-300 to-slate-500;
+	}
+}
+
+body {
+	font-family: 'Stag', Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	line-height: 1.6;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-rendering: optimizelegibility;
+}
+
+/* BONUS */
+/* Gradient Text */
+h1 {
+	font-weight: 600;
+	background-clip: text;
+	color: transparent;
+}
