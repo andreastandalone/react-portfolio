@@ -12,7 +12,7 @@ const Clients = () => {
 						</h2>
 					</div>
 
-					<div className='pt-20 max-w-3xl mx-auto flex flex-wrap justify-center items-center gap-x-12 gap-y-10'>
+					<div className='pt-20 max-w-3xl mx-auto flex flex-wrap justify-center items-center gap-x-16 gap-y-10'>
 						{clients.map((client) => {
 							return <Client key={client.id} {...client} />
 						})}

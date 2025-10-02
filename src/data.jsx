@@ -8,6 +8,7 @@ import projDeNigris from './assets/projects/denigris.png'
 import projFarma from './assets/projects/farmaermann.png'
 import projRinascimento from './assets/projects/rinascimento.png'
 
+import clientDp from './assets/clients/digitalpaths.png'
 import clientModo from './assets/clients/modo.svg'
 import clientTangible from './assets/clients/tangible.svg'
 import clientIaad from './assets/clients/iaad.png'
@@ -121,6 +122,12 @@ export const projects = [
 ]
 
 export const clients = [
+	{
+		id: nanoid(),
+		name: 'Digital Paths',
+		url: 'https://www.digitalpaths.it/',
+		logo: clientDp,
+	},
 	{
 		id: nanoid(),
 		name: 'MODO',

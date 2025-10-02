@@ -21,7 +21,7 @@
 
 @layer utilities {
 	.swiper-wrapper {
-		padding-bottom: 10px;
+		@apply pb-10;
 	}
 	.swiper-button-next,
 	.swiper-button-prev {
@@ -36,28 +36,39 @@
 	.swiper-button-prev svg {
 		height: 22px !important;
 	}
-}
+	.swiper .swiper-pagination-progressbar {
+		top: auto !important; /* disattiva posizione default */
+		bottom: 0; /* mettila in basso */
+		height: 4px; /* spessore barra */
+		//background: rgba(0, 0, 0, 0.1); /* colore base */
+	}
 
-body {
-	font-family: 'Stag', Georgia, Times, 'Times New Roman', serif;
-	font-size: 20px;
-	line-height: 1.6;
-	font-weight: 300;
+	.swiper .swiper-pagination-progressbar-fill {
+		//background: #0ea5e9; /* sky-500 */
+	}
 }
+@layer base {
+	body {
+		font-family: 'Stag', Georgia, Times, 'Times New Roman', serif;
+		font-size: 20px;
+		line-height: 1.6;
+		font-weight: 300;
+	}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	text-rendering: optimizelegibility;
-}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-rendering: optimizelegibility;
+	}
 
-/* BONUS */
-/* Gradient Text */
-h1 {
-	font-weight: 600;
-	background-clip: text;
-	color: transparent;
+	/* BONUS */
+	/* Gradient Text */
+	h1 {
+		font-weight: 600;
+		background-clip: text;
+		color: transparent;
+	}
 }

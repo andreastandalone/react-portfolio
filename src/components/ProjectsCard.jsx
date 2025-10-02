@@ -10,12 +10,12 @@ const ProjectsCard = ({
 	stack,
 }) => {
 	return (
-		<article className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300'>
+		<article className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300 mb-4'>
 			<div className='relative'>
 				<img
 					src={img}
 					alt={title}
-					className='w-full h-80 object-cover object-top rounded-t-lg'
+					className='w-full h-40 md:h-80 object-cover object-top rounded-t-lg'
 				/>
 				{/* Overlay gradiente */}
 				<div className='absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-900/50 to-transparent rounded-t-lg'></div>

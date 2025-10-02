@@ -1,7 +1,7 @@
 import nextImg from '../assets/projects/next.png'
 const ProjectsCard = () => {
 	return (
-		<article className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300'>
+		<article className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300 mb-4'>
 			<div className='relative bg-sky-100 h-full'>
 				<img
 					src={nextImg}
