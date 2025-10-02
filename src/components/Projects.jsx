@@ -5,6 +5,7 @@ import 'swiper/css/navigation'
 import ProjectsCard from './ProjectsCard'
 import { projects } from '../data'
 import SectionTitle from './SectionTitle'
+import ProjectsCardLast from './ProjectsCardLast'
 
 const Projects = () => {
 	return (
@@ -34,6 +35,9 @@ const Projects = () => {
 								</SwiperSlide>
 							)
 						})}
+						<SwiperSlide>
+							<ProjectsCardLast />
+						</SwiperSlide>
 					</div>
 				</Swiper>
 			</div>

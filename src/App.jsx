@@ -18,7 +18,7 @@ const App = () => {
 		})
 	}, [])
 	return (
-		<>
+		<div id='top'>
 			<Navbar />
 			<Hero />
 			<Skills />
@@ -26,7 +26,7 @@ const App = () => {
 			<Projects />
 			<Clients />
 			<Footer />
-		</>
+		</div>
 	)
 }
 
