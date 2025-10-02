@@ -15,7 +15,9 @@ const Navbar = () => {
 	return (
 		<nav
 			className={`sticky top-0 z-50 transition-all duration-300 ${
-				scrolled ? 'bg-sky-100/80 backdrop-blur-md shadow-sm' : 'bg-sky-100'
+				scrolled
+					? 'bg-sky-100/20 backdrop-blur-lg shadow-xs border-b border-white/20'
+					: 'bg-sky-100'
 			}`}>
 			<div
 				className={`align-element flex flex-col sm:flex-row sm:gap-x-16 items-center justify-between transition-all duration-300 ${
