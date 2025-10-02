@@ -30,8 +30,6 @@ Deployed on **Netlify** with custom domain [stand-alone.it](https://stand-alone.
 
 ![Preview Screenshot](./screenshot.png)
 
-_(replace `screenshot.png` with an actual image of your project in the repo)_
-
 ---
 
 ## ⚡ Setup & Development
