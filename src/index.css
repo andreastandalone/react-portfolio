@@ -11,6 +11,31 @@
 	.bg-gradient-grey {
 		@apply bg-gradient-to-r from-slate-300 to-slate-500;
 	}
+
+	.gradient-title {
+		@apply bg-gradient-to-r from-cyan-500 to-blue-800;
+		background-clip: text;
+		color: transparent;
+	}
+}
+
+@layer utilities {
+	.swiper-wrapper {
+		padding-bottom: 10px;
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+		@apply bg-white rounded-full shadow-md w-10 h-10 flex items-center justify-center text-gray-700;
+	}
+
+	.swiper-button-next::after,
+	.swiper-button-prev::after {
+		@apply text-base font-bold;
+	}
+	.swiper-button-next svg,
+	.swiper-button-prev svg {
+		height: 22px !important;
+	}
 }
 
 body {

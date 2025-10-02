@@ -9,7 +9,7 @@ const Footer = () => {
 							passione per tecnologia e comunicazione digitale.
 						</h2>
 						<h2 className='title font-light text-white tracking-wide leading-loose'>
-							Se ti va di conoscerci meglio,
+							Se ti va di conoscerci meglio:
 							<a href='mailto:andrea@stand-alone.it'>
 								<strong>
 									<em> scrivimi</em>

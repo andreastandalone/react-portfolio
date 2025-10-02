@@ -1,11 +1,11 @@
-import heroImg from '../assets/hero.svg'
+import heroImg from '../assets/hero-black.png'
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 const Hero = () => {
 	return (
-		<section className='bg-sky-100 py-24'>
+		<section className='bg-sky-100 pt-8 pb-8 md:pb-0 relative'>
 			<div className='align-element grid md:grid-cols-2 items-center gap-8'>
 				<article>
-					<h1 className='text-4xl font-black tracking-wider bg-gradient-to-r from-blue-600 to-violet-600'>
+					<h1 className='text-4xl font-black tracking-wider bg-gradient-to-r from-cyan-500 to-blue-500'>
 						Ciao, sono Andrea
 					</h1>
 					<p className='mt-2 text-3xl text-slate-700 capitalize tracking-wide'>
@@ -33,9 +33,10 @@ const Hero = () => {
 				</article>
 
 				<article className='hidden md:block '>
-					<img src={heroImg} className='h-80 lg:h-96' />
+					<img src={heroImg} className='h-80 lg:h-120' />
 				</article>
 			</div>
+			<div className='absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-500/20 to-transparent rounded-t-lg'></div>
 		</section>
 	)
 }

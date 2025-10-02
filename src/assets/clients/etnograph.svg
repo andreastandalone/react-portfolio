@@ -1,0 +1,33 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="etn-logo">
+    <g id="bottom2">
+      <path id="Vector" d="M100 104.843H8V108H100V104.843Z" fill="#ffffff"></path>
+    </g>
+    <g id="bottom">
+      <path id="Vector_2" d="M100 104.843H8V108H100V104.843Z" fill="#ffffff"></path>
+    </g>
+    <g id="right2">
+      <path id="Vector_3" d="M108 8H104.844V100H108V8Z" fill="#ffffff"></path>
+    </g>
+    <g id="right">
+      <path id="Vector_4" d="M108 8H104.844V100H108V8Z" fill="#ffffff"></path>
+    </g>
+    <g id="top2">
+      <path id="Vector_5" d="M100 0H8V3.15719H100V0Z" fill="#ffffff"></path>
+    </g>
+    <g id="top">
+      <path id="Vector_6" d="M100 0H8V3.15719H100V0Z" fill="#ffffff"></path>
+    </g>
+    <g id="left2">
+      <path id="Vector_7" d="M3.15618 8H0V100H3.15618V8Z" fill="#ffffff"></path>
+    </g>
+    <g id="left">
+      <path id="Vector_8" d="M3.15618 8H0V100H3.15618V8Z" fill="#ffffff"></path>
+    </g>
+    <g id="e">
+      <path id="Vector_9"
+        d="M34.0281 78.878V26.7412H73.351V36.9374H45.4283V47.5131H69.9879V57.7265H45.4283V68.6645H73.7132V78.878H34.0281Z"
+        fill="#ffffff"></path>
+    </g>
+  </g>
+</svg>
