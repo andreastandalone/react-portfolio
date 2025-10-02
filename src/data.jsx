@@ -34,18 +34,21 @@ export const skills = [
 		id: nanoid(),
 		title: 'Coding',
 		icon: <FaCode className='faIcon h-20 w-20 text-cyan-400' />,
+		delay: '0',
 		text: 'Trasformo i layout in codice web responsive, accessibile e ottimizzato per le performance con HTML, CSS e JavaScript, garantendo usabilità su ogni dispositivo.',
 	},
 	{
 		id: nanoid(),
 		title: 'Flessibilità ',
 		icon: <FaRandom className='faIcon h-20 w-20 text-cyan-500' />,
+		delay: '150',
 		text: 'Mi adatto rapidamente a diversi ambienti, CMS, framework e linguaggi di templating, integrandomi senza problemi nei flussi di lavoro e nelle pratiche del team.',
 	},
 	{
 		id: nanoid(),
 		title: 'Dialogo',
 		icon: <FaPuzzlePiece className='faIcon h-20 w-20 text-cyan-600' />,
+		delay: '300',
 		text: 'Ho esperienza con agenzie di design e UX, comprendo le esigenze dei designer, curo i dettagli visivi e lavoro in autonomia, gestendo anche il rapporto diretto con i clienti.',
 	},
 ]

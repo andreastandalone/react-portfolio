@@ -1,6 +1,6 @@
 const client = ({ name, url, logo }) => {
 	return (
-		<figure className='w-28 sm:w-32 md:w-36'>
+		<figure className='w-28 sm:w-32 md:w-36' data-aos='zoom-in'>
 			<a className='' target='_blank' href={url}>
 				<img
 					src={logo}

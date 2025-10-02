@@ -4,8 +4,12 @@ const About = () => {
 	return (
 		<section className='bg-white py-20' id='about'>
 			<div className='align-element grid  md:grid-cols-2 items-center gap-16'>
-				<img src={aboutSvg} className='w-full h-64' />
-				<article className='text-slate-600 mt-8 leading-loose text-base tracking-wide'>
+				<img src={aboutSvg} className='w-full h-64' data-aos='fade-up' />
+				<article
+					className='text-slate-600 mt-8 leading-loose text-base tracking-wide'
+					data-aos='fade-up'
+					data-aos-delay='300'
+					data-aos-easing='ease-in-sine'>
 					<SectionTitle text='About me' />
 					<p className='mt-8'>
 						Lavoro nel web dal 2006 e come freelance dal 2013.
