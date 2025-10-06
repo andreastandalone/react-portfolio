@@ -23,7 +23,7 @@ const Navbar = () => {
 				}`}>
 				{/* Logo */}
 				<h3 className='text-2xl font-bold text-sky-400'>
-					<a href='#top'>
+					<a href='/'>
 						<span className='text-sky-800'>stand-alone</span>.it
 					</a>
 				</h3>

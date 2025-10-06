@@ -1,5 +1,5 @@
 import heroImg from '../assets/hero-black.png'
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 const Hero = () => {
 	return (
 		<section className='bg-sky-100 pt-16 pb-8 md:pb-0 relative'>

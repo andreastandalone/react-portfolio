@@ -3,9 +3,9 @@ import { Navigation, Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
-import ProjectsCard from './ProjectsCard'
-import { projects } from '../data'
 import SectionTitle from './SectionTitle'
+import { projects } from '../data'
+import ProjectsCard from './ProjectsCard'
 import ProjectsCardLast from './ProjectsCardLast'
 
 const Projects = () => {

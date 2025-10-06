@@ -63,7 +63,7 @@ export const projects = [
 		url: 'https://www.stand-alone.it/',
 		urlText: 'stand-alone.it',
 		text: 'Mi serviva un nuovo sito',
-		stack: 'React, Vite, TailwindCSS, Netlify',
+		stack: 'React, Vite, TailwindCSS + Netlify',
 	},
 	{
 		id: nanoid(),
