@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid'
 import { FaCode, FaRandom, FaPuzzlePiece } from 'react-icons/fa'
 
+import projModula from './assets/projects/modulanp.jpg'
 import projStnd from './assets/projects/standalone2025.png'
 import projAdb from './assets/projects/screen-adb22.png'
 import projJarvis from './assets/projects/jarvis.png'
@@ -55,6 +56,16 @@ export const skills = [
 ]
 
 export const projects = [
+	{
+		id: nanoid(),
+		client: 'MODULA Neutro Plurale',
+		agency: 'Digital Paths',
+		img: projModula,
+		url: 'https://modulaneutroplurale.it/',
+		urlText: 'modulaneutroplurale.it',
+		text: 'E-commerce di Abbigliamento. Customizzazione tema e struttura Shopify. Interventi su layout, importazione catalogo prodotti e gestione dei contenuti multilingua.',
+		stack: 'Shopify',
+	},
 	{
 		id: nanoid(),
 		client: 'Portfolio 2025',
