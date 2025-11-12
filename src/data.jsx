@@ -58,16 +58,6 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
-		client: 'MODULA Neutro Plurale',
-		agency: 'Digital Paths',
-		img: projModula,
-		url: 'https://modulaneutroplurale.it/',
-		urlText: 'modulaneutroplurale.it',
-		text: 'E-commerce di Abbigliamento. Customizzazione tema e struttura Shopify. Interventi su layout, importazione catalogo prodotti e gestione dei contenuti multilingua.',
-		stack: 'Shopify',
-	},
-	{
-		id: nanoid(),
 		client: 'Portfolio 2025',
 		agency: 'Io',
 		img: projStnd,
@@ -75,6 +65,16 @@ export const projects = [
 		urlText: 'stand-alone.it',
 		text: 'Mi serviva un nuovo sito',
 		stack: 'React, Vite, TailwindCSS + Netlify',
+	},
+	{
+		id: nanoid(),
+		client: 'MODULA Neutro Plurale',
+		agency: 'Digital Paths',
+		img: projModula,
+		url: 'https://modulaneutroplurale.it/',
+		urlText: 'modulaneutroplurale.it',
+		text: 'E-commerce di Abbigliamento. Customizzazione tema e struttura Shopify. Interventi su layout, importazione catalogo prodotti e gestione dei contenuti multilingua.',
+		stack: 'Shopify',
 	},
 	{
 		id: nanoid(),
