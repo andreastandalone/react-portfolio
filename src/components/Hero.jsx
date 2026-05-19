@@ -9,12 +9,12 @@ const Hero = () => {
 						Ciao, sono Andrea
 					</h1>
 					<p className='mt-2 text-3xl text-slate-700 capitalize tracking-wide'>
-						Front-End Developer
+						Web Developer
 					</p>
 					<p className='mt-2 text-lg text-slate-700 tracking-wide'>
 						Sono uno sviluppatore web freelance,
 						<br />
-						con esperienza in UX e visual design.
+						dal front-end al deploy con esperienza in UX e visual design.   
 					</p>
 					<div className='flex gap-x-4 mt-4'>
 						<a

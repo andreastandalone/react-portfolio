@@ -47,6 +47,24 @@
 		//background: #0ea5e9; /* sky-500 */
 	}
 }
+.project-img-scroll {
+	overflow: hidden;
+	height: 10rem;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+@media (min-width: 768px) {
+	.project-img-scroll {
+		height: 20rem;
+	}
+}
+
+.project-img-scroll img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 @layer base {
 	body {
 		font-family: 'Stag', Georgia, Times, 'Times New Roman', serif;

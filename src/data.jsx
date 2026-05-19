@@ -1,8 +1,10 @@
 import { nanoid } from 'nanoid'
 import { FaCode, FaRandom, FaPuzzlePiece } from 'react-icons/fa'
 
+import projVivace from './assets/projects/vivace.png'
+import projTrakkem from './assets/projects/trakkem.png'
 import projModula from './assets/projects/modulanp.jpg'
-import projStnd from './assets/projects/standalone2025.png'
+import projStnd from './assets/projects/standalone2025b.png'
 import projAdb from './assets/projects/screen-adb22.png'
 import projJarvis from './assets/projects/jarvis.png'
 import projDeNigris from './assets/projects/denigris.png'
@@ -37,7 +39,7 @@ export const skills = [
 		title: 'Coding',
 		icon: <FaCode className='faIcon h-20 w-20 text-cyan-400' />,
 		delay: '0',
-		text: 'Trasformo i layout in codice web responsive, accessibile e ottimizzato per le performance con HTML, CSS e JavaScript, garantendo usabilità su ogni dispositivo.',
+		text: 'Costruisco prodotti web completi: interfacce performanti e responsive, backend, API, database e deploy. Ogni livello dello stack è curato quanto il design.',
 	},
 	{
 		id: nanoid(),
@@ -56,6 +58,26 @@ export const skills = [
 ]
 
 export const projects = [
+	{
+		id: nanoid(),
+		client: "Trakk'em",
+		img: projTrakkem,
+		url: 'https://trakkem.app',
+		urlText: 'trakkem.app',
+		isOffline: false,
+		text: 'Web app per la condivisione privata di file audio con statistiche avanzate',
+		stack: 'React + Vite / Node.js + Express / SQLite — deploy su VPS Ubuntu 24.04 con Nginx + PM2',
+	},
+	{
+		id: nanoid(),
+		client: 'WAB web agency bologna',
+		img: projVivace,
+		url: 'https://web-agency-bologna.it/',
+		urlText: 'web-agency-bologna.it',
+		isOffline: false,
+		text: "Landing page promozionale per l'agenzia, moderna e animata",
+		stack: 'HTML, CSS, JS',
+	},
 	{
 		id: nanoid(),
 		client: 'Portfolio 2025',

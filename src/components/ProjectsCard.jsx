@@ -1,3 +1,7 @@
+import { useRef } from 'react'
+
+const SCROLL_SPEED = 200 // px per second
+
 const ProjectsCard = ({
 	client,
 	agency,
@@ -9,16 +13,35 @@ const ProjectsCard = ({
 	text,
 	stack,
 }) => {
+	const wrapperRef = useRef(null)
+	const imgRef = useRef(null)
+
+	const handleMouseEnter = () => {
+		const wrapper = wrapperRef.current
+		const image = imgRef.current
+		if (!wrapper || !image) return
+		const distance = image.offsetHeight - wrapper.offsetHeight
+		if (distance <= 0) return
+		image.style.transition = `transform ${distance / SCROLL_SPEED}s linear`
+		image.style.transform = `translateY(-${distance}px)`
+	}
+
+	const handleMouseLeave = () => {
+		const image = imgRef.current
+		if (!image) return
+		image.style.transition = 'transform 0.4s ease-out'
+		image.style.transform = 'translateY(0)'
+	}
+
 	return (
 		<article className='bg-white rounded-lg shadow-md block hover:shadow-xl duration-300 mb-4'>
-			<div className='relative'>
-				<img
-					src={img}
-					alt={title}
-					className='w-full h-40 md:h-80 object-cover object-top rounded-t-lg'
-				/>
-				{/* Overlay gradiente */}
-				<div className='absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-900/50 to-transparent rounded-t-lg'></div>
+			<div
+				ref={wrapperRef}
+				className='relative project-img-scroll'
+				onMouseEnter={handleMouseEnter}
+				onMouseLeave={handleMouseLeave}>
+				<img ref={imgRef} src={img} alt={title} />
+				<div className='absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-900/50 to-transparent'></div>
 			</div>
 			<div className='min-h-[285px] p-8 text-base text-slate-700 tracking-wide'>
 				{/* <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
@@ -27,10 +50,12 @@ const ProjectsCard = ({
 					<span className='uppercase text-sm tracking-wider'>Client:</span>{' '}
 					<strong>{client}</strong>
 				</p>
-				<p className='mb-2'>
-					<span className='uppercase text-sm tracking-wider'>Agenzia:</span>{' '}
-					<strong>{agency}</strong>
-				</p>
+				{agency && (
+					<p className='mb-2'>
+						<span className='uppercase text-sm tracking-wider'>Agenzia:</span>{' '}
+						<strong>{agency}</strong>
+					</p>
+				)}
 				<p className='mb-2 '>
 					<span className='block uppercase text-sm tracking-wider'>Task:</span>
 					<span className='font-normal'>{text}</span>

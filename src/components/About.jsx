@@ -28,10 +28,16 @@ const About = () => {
 					<p className='mt-8'>
 						Lavoro nel punto di contatto tra designer e developer, facendo{' '}
 						<strong>
-							dialogare gli aspetti tecnici con la visione e l’identità del
+							dialogare gli aspetti tecnici con la visione e l&apos;identit&agrave; del
 							progetto
 						</strong>
-						: la strategia, gli obiettivi e l’esperienza da offrire all’utente.
+						: la strategia, gli obiettivi e l&apos;esperienza da offrire all&apos;utente.
+					</p>
+					<p className='mt-8'>
+						Negli ultimi anni ho esteso il mio lavoro anche al backend e
+						all&apos;infrastruttura, progettando e sviluppando{' '}
+						<strong>applicazioni web complete in autonomia</strong>, dalla UI al
+						database, fino al deploy in produzione.
 					</p>
 				</article>
 			</div>
