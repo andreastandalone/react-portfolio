@@ -7,14 +7,16 @@ import SectionTitle from './SectionTitle'
 import { projects } from '../data'
 import ProjectsCard from './ProjectsCard'
 import ProjectsCardLast from './ProjectsCardLast'
+import { useLang } from '../context/LangContext'
 
 const Projects = () => {
+	const { lang } = useLang()
 	return (
 		<section
 			className='pt-20 pb-10 bg-gradient-to-r from-slate-100 to-slate-50'
 			id='portfolio'>
 			<div className='align-element'>
-				<SectionTitle text='alcuni progetti realizzati' />
+				<SectionTitle text={lang === 'it' ? 'alcuni progetti realizzati' : 'selected projects'} />
 
 				<Swiper
 					className='mt-16'

@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { LangProvider } from './context/LangContext'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
@@ -18,15 +19,17 @@ const App = () => {
 		})
 	}, [])
 	return (
-		<div id='top'>
-			<Navbar />
-			<Hero />
-			<Skills />
-			<About />
-			<Projects />
-			<Clients />
-			<Footer />
-		</div>
+		<LangProvider>
+			<div id='top'>
+				<Navbar />
+				<Hero />
+				<Skills />
+				<About />
+				<Projects />
+				<Clients />
+				<Footer />
+			</div>
+		</LangProvider>
 	)
 }
 
