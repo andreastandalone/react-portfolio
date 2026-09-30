@@ -73,6 +73,20 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
+		client: "Trakk'em",
+		isPersonalProject: true,
+		img: projTrakkem,
+		url: 'https://trakkem.app',
+		urlText: 'trakkem.app',
+		isOffline: false,
+		text: {
+			it: "Piattaforma SaaS di file sharing privato per professionisti dell'audio: condivisione di tracce e file con player, statistiche avanzate di ascolto e audio live streaming in real-time.",
+			en: 'SaaS platform for private file sharing built for audio professionals: track and file sharing with a built-in player, advanced listening analytics, and real-time live audio streaming.',
+		},
+		stack: 'React + Vite / Node.js + Express / SQLite / VPS Ubuntu 24.04 + Nginx + PM2',
+	},
+	{
+		id: nanoid(),
 		client: 'i Bugiardini',
 		img: projBugiardini,
 		url: 'https://www.bugiardini.it/',
@@ -86,17 +100,16 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		client: "Trakk'em",
-		isPersonalProject: true,
-		img: projTrakkem,
-		url: 'https://trakkem.app',
-		urlText: 'trakkem.app',
-		isOffline: false,
+		client: 'Aeroporto di Bologna',
+		agency: 'Tangible.is',
+		img: projAdb,
+		url: 'https://www.bologna-airport.it/',
+		urlText: 'bologna-airport.it',
 		text: {
-			it: "Piattaforma SaaS di file sharing privato per professionisti dell'audio: condivisione di tracce e file con player, statistiche avanzate di ascolto e audio live streaming in real-time.",
-			en: 'SaaS platform for private file sharing built for audio professionals: track and file sharing with a built-in player, advanced listening analytics, and real-time live audio streaming.',
+			it: "Creazione, manutenzione e restyling della pattern library del sito. Foundations, componenti e pagine intere, con particolare attenzione all’accessibilita’ e alle performance.",
+			en: "Creation, maintenance, and redesign of the site pattern library. Foundations, components, and full pages, with a focus on accessibility and performance.",
 		},
-		stack: 'React + Vite / Node.js + Express / SQLite / VPS Ubuntu 24.04 + Nginx + PM2',
+		stack: 'Fractal JS, Twig, SASS, Gulp',
 	},
 	{
 		id: nanoid(),
@@ -137,19 +150,6 @@ export const projects = [
 			en: 'Clothing e-commerce. Shopify theme and structure customisation. Layout work, product catalogue import, and multilingual content management.',
 		},
 		stack: 'Shopify',
-	},
-	{
-		id: nanoid(),
-		client: 'Aeroporto di Bologna',
-		agency: 'Tangible.is',
-		img: projAdb,
-		url: 'https://www.bologna-airport.it/',
-		urlText: 'bologna-airport.it',
-		text: {
-			it: "Creazione, manutenzione e restyling della pattern library del sito. Foundations, componenti e pagine intere, con particolare attenzione all’accessibilita’ e alle performance.",
-			en: "Creation, maintenance, and redesign of the site pattern library. Foundations, components, and full pages, with a focus on accessibility and performance.",
-		},
-		stack: 'Fractal JS, Twig, SASS, Gulp',
 	},
 	{
 		id: nanoid(),
