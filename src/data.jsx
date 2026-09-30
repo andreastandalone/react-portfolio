@@ -1,14 +1,16 @@
 import { nanoid } from 'nanoid'
 import { FaCode, FaRobot, FaLayerGroup } from 'react-icons/fa'
 
+import projBugiardini from './assets/projects/ibugiardini.webp'
+import projTrakkem from './assets/projects/trakkem2026.webp'
 import projHeadroom from './assets/projects/headroom.svg'
-import projTrakkem from './assets/projects/trakkem.png'
-import projModula from './assets/projects/modulanp.jpg'
-import projAdb from './assets/projects/screen-adb22.png'
-import projJarvis from './assets/projects/jarvis.png'
-import projDeNigris from './assets/projects/denigris.png'
-import projFarma from './assets/projects/farmaermann.png'
-import projRinascimento from './assets/projects/rinascimento.png'
+import projVivace from './assets/projects/vivace.webp'
+import projModula from './assets/projects/modulanp.webp'
+import projAdb from './assets/projects/screen-adb22.webp'
+import projJarvis from './assets/projects/jarvis.webp'
+import projDeNigris from './assets/projects/denigris.webp'
+import projFarma from './assets/projects/farmaermann.webp'
+import projRinascimento from './assets/projects/rinascimento.webp'
 
 import clientDp from './assets/clients/digitalpaths.png'
 import clientModo from './assets/clients/modo.svg'
@@ -71,6 +73,19 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
+		client: 'i Bugiardini',
+		img: projBugiardini,
+		url: 'https://www.bugiardini.it/',
+		urlText: 'bugiardini.it',
+		isOffline: false,
+		text: {
+			it: "E-commerce per compagnia di improvvisazione teatrale con personalizzazioni avanzate: gestione di spettacoli, biglietteria, ordini e controllo dell'accesso in cassa tramite biglietti con QR code.",
+			en: 'E-commerce for an improv theatre company with advanced customisations: management of shows, ticketing, orders, and box office entry control with QR code tickets.',
+		},
+		stack: 'WordPress, WooCommerce, Docker, CSS, JavaScript',
+	},
+	{
+		id: nanoid(),
 		client: "Trakk'em",
 		isPersonalProject: true,
 		img: projTrakkem,
@@ -78,8 +93,8 @@ export const projects = [
 		urlText: 'trakkem.app',
 		isOffline: false,
 		text: {
-			it: 'Web app per la condivisione privata di file audio con statistiche avanzate: completion rate, skip, replay e dati di localizzazione degli ascolti.',
-			en: 'Web app for private audio file sharing with advanced listener analytics: completion rate, skips, replays, and location data.',
+			it: "Piattaforma SaaS di file sharing privato per professionisti dell'audio: condivisione di tracce e file con player, statistiche avanzate di ascolto e audio live streaming in real-time.",
+			en: 'SaaS platform for private file sharing built for audio professionals: track and file sharing with a built-in player, advanced listening analytics, and real-time live audio streaming.',
 		},
 		stack: 'React + Vite / Node.js + Express / SQLite / VPS Ubuntu 24.04 + Nginx + PM2',
 	},
@@ -96,6 +111,19 @@ export const projects = [
 			en: 'Automated weekly newsletter for music producers. An AI pipeline scrapes dedicated sources, Gemini drafts the content as junior writer, and Claude Sonnet reviews it as editor.',
 		},
 		stack: 'Python / Claude API / Gemini API / web scraping',
+	},
+	{
+		id: nanoid(),
+		client: 'WAB web agency bologna',
+		img: projVivace,
+		url: 'https://web-agency-bologna.it/',
+		urlText: 'web-agency-bologna.it',
+		isOffline: false,
+		text: {
+			it: 'Landing page promozionale per una web agency, moderna e animata.',
+			en: 'Modern, animated promotional landing page for a web agency.',
+		},
+		stack: 'HTML, CSS, JS',
 	},
 	{
 		id: nanoid(),
