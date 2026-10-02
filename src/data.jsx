@@ -100,19 +100,6 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		client: 'Aeroporto di Bologna',
-		agency: 'Tangible.is',
-		img: projAdb,
-		url: 'https://www.bologna-airport.it/',
-		urlText: 'bologna-airport.it',
-		text: {
-			it: "Creazione e manutenzione del front-end e della pattern library del sito. Foundations, componenti e pagine intere, con particolare attenzione all’accessibilità e alle performance.",
-			en: "Creation and maintenance of the site's front end and pattern library. Foundations, components, and full pages, with a focus on accessibility and performance.",
-		},
-		stack: 'Fractal JS, Twig, SASS, Gulp',
-	},
-	{
-		id: nanoid(),
 		client: 'The Headroom',
 		isPersonalProject: true,
 		img: projHeadroom,
@@ -124,6 +111,19 @@ export const projects = [
 			en: 'Automated weekly newsletter for music producers. An AI pipeline scrapes dedicated sources, Gemini drafts the content as junior writer, and Claude Sonnet reviews it as editor.',
 		},
 		stack: 'Python / Claude API / Gemini API / web scraping',
+	},
+	{
+		id: nanoid(),
+		client: 'Aeroporto di Bologna',
+		agency: 'Tangible.is',
+		img: projAdb,
+		url: 'https://www.bologna-airport.it/',
+		urlText: 'bologna-airport.it',
+		text: {
+			it: "Creazione e manutenzione del front-end e della pattern library del sito. Foundations, componenti e pagine intere, con particolare attenzione all’accessibilità e alle performance.",
+			en: "Creation and maintenance of the site's front end and pattern library. Foundations, components, and full pages, with a focus on accessibility and performance.",
+		},
+		stack: 'Fractal JS, Twig, SASS, Gulp',
 	},
 	{
 		id: nanoid(),
