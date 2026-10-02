@@ -3,7 +3,7 @@ import { FaCode, FaRobot, FaLayerGroup } from 'react-icons/fa'
 
 import projBugiardini from './assets/projects/ibugiardini.webp'
 import projTrakkem from './assets/projects/trakkem2026.webp'
-import projHeadroom from './assets/projects/headroom.svg'
+import projHeadroom from './assets/projects/headroom.webp'
 import projVivace from './assets/projects/vivace.webp'
 import projModula from './assets/projects/modulanp.webp'
 import projAdb from './assets/projects/screen-adb22.webp'
@@ -116,8 +116,8 @@ export const projects = [
 		client: 'The Headroom',
 		isPersonalProject: true,
 		img: projHeadroom,
-		url: 'https://creativesum.com',
-		urlText: 'creativesum.com',
+		url: 'https://creativesum.com/headroom/',
+		urlText: 'creativesum.com/headroom',
 		isOffline: false,
 		text: {
 			it: 'Newsletter settimanale automatizzata per produttori musicali. Un pipeline AI scrape fonti dedicate, Gemini genera la bozza come junior writer e Claude Sonnet la revisiona come editor.',
